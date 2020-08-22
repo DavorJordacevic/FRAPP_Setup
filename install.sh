@@ -1,9 +1,9 @@
 #!/bin/bash
 
-./postgres.sh
-./plsql_db.sh
-./frapp.sh
-./frontend.sh
+bash ./postgres.sh
+bash ./plsql_db.sh
+bash ./frapp.sh -y
+bash ./frontend.sh
 
 echo "===Installation complete==="
 

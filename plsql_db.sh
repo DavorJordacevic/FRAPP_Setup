@@ -1,14 +1,8 @@
 #!/bin/bash
 
-sudo -i -u postgres
-psql
+export PGPASSWORD=postgres
 
-createdb FRAPP_Dev
-psql -d FRAPP_Dev
-
-\q
-exit
-
-psql -U postgres -d FRAPP_Dev < dump.sql
-
+createdb -p 5432 -h localhost -U postgres -E UTF8 -e FRAPP_Dev
+psql -d FRAPP_Dev -p 5432 -h localhost -U postgres --no-password -f database.sql
+psql -d FRAPP_Dev -p 5432 -h localhost -U postgres --no-password -f schema.sql
 echo "===Database created successfully==="
