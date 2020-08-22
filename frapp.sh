@@ -39,4 +39,4 @@ rm -rf retinaface_mbv2.zip
 mkdir retinaface_tf2/checkpoints
 mv retinaface_mbv2 retinaface_tf2/checkpoints/retinaface_mbv2
 
-echo "FaceRecognition APP successfully instaled"
+echo "===FaceRecognition APP successfully instaled==="

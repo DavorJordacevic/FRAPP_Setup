@@ -8,5 +8,5 @@ psql
 \q
 exit
 
-echo "Postgres installed successfully"
+echo "===Postgres installed successfully==="
 

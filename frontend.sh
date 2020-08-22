@@ -5,4 +5,4 @@ mv ArcFace-TF2.x arcface_tf2
 
 npm install
 
-echo "FroneEnd instaled successfully"
+echo "===FroneEnd instaled successfully==="

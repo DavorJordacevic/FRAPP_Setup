@@ -11,4 +11,4 @@ exit
 
 psql -U postgres -d FRAPP_Dev < dump.sql
 
-echo "Database created successfully"
+echo "===Database created successfully==="

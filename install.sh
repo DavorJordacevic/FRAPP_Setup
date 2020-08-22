@@ -3,7 +3,7 @@
 ./postgres.sh
 ./plsql_db.sh
 ./frapp.sh
-./fe.sh
+./frontend.sh
 
-echo "Installation complete"
+echo "===Installation complete==="
 
