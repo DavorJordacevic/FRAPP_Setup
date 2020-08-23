@@ -1,0 +1,22 @@
+python: can't open file 'main.py': [Errno 2] No such file or directory
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path /home/davor/Desktop/FRAPP_Setup/package.json
+npm ERR! errno -2
+npm ERR! enoent ENOENT: no such file or directory, open '/home/davor/Desktop/FRAPP_Setup/package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent 
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/davor/.npm/_logs/2020-08-22T21_09_32_130Z-debug.log
+python: can't open file 'main.py': [Errno 2] No such file or directory
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path /home/davor/Desktop/FRAPP_Setup/package.json
+npm ERR! errno -2
+npm ERR! enoent ENOENT: no such file or directory, open '/home/davor/Desktop/FRAPP_Setup/package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent 
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/davor/.npm/_logs/2020-08-22T21_10_09_434Z-debug.log

@@ -1,7 +1,6 @@
 #!/bin/bash
 
-git clone https://github.com/DavorJordacevic/ArcFace-TF2.x
-mv ArcFace-TF2.x arcface_tf2
+git https://github.com/DavorJordacevic/FaceRecognition-FrontEnd
 
 npm install
 
